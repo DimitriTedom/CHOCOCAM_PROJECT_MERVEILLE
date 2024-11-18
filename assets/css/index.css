@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -48,10 +48,58 @@ header{
     font-weight: 600;
     font-size: 1.4rem;
     border-radius: .7rem;
+    cursor: pointer;
 }
 
 .btn:hover{
 background-color: var(--text-col);
+color: var(--bg-bg);
+box-shadow: .5rem .9rem .5rem gray;
+}
+
+.heros{
+    display: flex;
+    gap: 4rem;
+}
+
+.text{
+flex: 1;
+padding: 2rem;
+}
+.heros img{
+    flex: 1;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 2rem;
+    padding-top: 7rem;
+}
+.parent>h1{
+    font-size: 4.8rem;
+    font-weight: 500;
+    color: var(--title-col);
+    text-shadow: .2rem .3rem .2rem gray ;
+}
+.parent>p{
+    font-weight: 200;
+    font-size: 2.4rem;
+}
+
+.btn-heros{
+    background-color: var(--bt-bg);
+    color: var(--text-col);
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: .7rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-heros:hover{
+    background-color: var(--text-col);
 color: var(--bg-bg);
 box-shadow: .5rem .9rem .5rem gray;
 }
